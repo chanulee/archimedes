@@ -64,19 +64,19 @@ void loop() {
       Serial.print(',');
       Serial.println(angleZ);
 
-      if(prevZ>-30 && angleZ<-30){
+      if(prevZ>-26 && angleZ<-34){
         vibrate = true;
       }
 
-      if(prevZ<30 && angleZ>30){
+      if(prevZ<26 && angleZ>34){
         vibrate = true;
       }
 
-      if(prevX<30 && angleX>30){
+      if(prevX<26 && angleX>34){
         vibrate = true;
       }
 
-      if(prevX>-30 && angleX<-30){
+      if(prevX>-26 && angleX<-34){
         vibrate = true;
       }
 
